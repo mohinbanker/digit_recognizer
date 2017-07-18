@@ -2,7 +2,6 @@ library(class)
 library(data.table)
 library(nnet)
 
-setwd("/home/cfpb/bankerm/Documents/personal/digit_recognition")
 colclasses <- sapply(
   read.csv("train.csv", header = T, nrows = 1000),
   class)
